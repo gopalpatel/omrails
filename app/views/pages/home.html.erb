@@ -1,3 +1,10 @@
+<% if user_signed_in? %>
+
+# show them something
+<h1> You're logged in! </h1>
+
+<% else %>
+
 <div class="hero-unit">
 
 	  	<h1>welcome to test home page</h1>
@@ -21,3 +28,4 @@
 
 </div>
 
+<% end %>
